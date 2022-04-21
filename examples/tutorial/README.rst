@@ -47,10 +47,10 @@ Run
 
 ::
 
-    $ export FLASK_APP=flaskr
-    $ export FLASK_ENV=development
-    $ flask init-db
-    $ flask run
+export FLASK_APP=flaskr
+export FLASK_ENV=development
+flask init-db
+flask run
 
 Or on Windows cmd::
 
@@ -75,3 +75,15 @@ Run with coverage report::
     $ coverage run -m pytest
     $ coverage report
     $ coverage html  # open htmlcov/index.html in a browser
+
+
+---------
+
+set FLASK_APP=flaskr
+set FLASK_ENV=development
+flask init-db
+flask run
+
+
+toto / allo123
+
