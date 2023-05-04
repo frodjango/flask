@@ -1,3 +1,49 @@
+Commentaires de Fro (May 2023)
+
+le venv est dans le folder /Users/frodjango/code/FlaskExample/flask/examples/tutorial
+
+
+0) source venv/bin/activate
+
+as per May 2023
+
+click              8.1.2
+Flask              2.1.1
+flaskr             1.0.0   /Users/frodjango/code/FlaskExample/flask/examples/tutorial
+importlib-metadata 4.11.3
+itsdangerous       2.1.2
+Jinja2             3.1.1
+MarkupSafe         2.1.1
+pip                21.2.4
+setuptools         58.1.0
+Werkzeug           2.1.1
+zipp               3.8.0
+
+1) allez à /Users/frodjango/code/FlaskExample/flask/examples/tutorial
+2) flask run
+
+option for next step
+
+3) open and read the following
+
+/Users/frodjango/code/FlaskExample/flask/examples/tutorial/README.rst
+
+when you'll learn on the ENV settings
+
+.. export FLASK_APP=flaskr
+.. export FLASK_ENV=development
+.. flask init-db
+.. flask run
+
+
+
+
+
+
+
+
+
+
 Flask
 =====
 
