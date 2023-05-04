@@ -23,3 +23,5 @@
 [DUDE ! 2022-04-21 15:00:04,578] WARNING in __init__: warning
 [DUDE ! 2022-04-21 15:00:04,578] ERROR in __init__: error
 [DUDE ! 2022-04-21 15:00:04,578] CRITICAL in __init__: critical
+[DUDE ! 2023-05-04 09:40:10,095] INFO in auth: Calling load_logged_in_user
+[DUDE ! 2023-05-04 09:40:10,129] INFO in auth: Calling load_logged_in_user

@@ -1,9 +1,17 @@
 Commentaires de Fro (May 2023)
 
+Doc - step 1
+
+le github : https://github.com/pallets/flask/tree/2.3.2/examples/tutorial
+
 le venv est dans le folder /Users/frodjango/code/FlaskExample/flask/examples/tutorial
 
 
 0) source venv/bin/activate
+
+0.5) selec proper python interpreter
+
+/Users/frodjango/code/FlaskExample/flask/examples/tutorial/venv/bin/python
 
 as per May 2023
 
@@ -34,6 +42,9 @@ when you'll learn on the ENV settings
 .. export FLASK_ENV=development
 .. flask init-db
 .. flask run
+
+Doc - step 2 - testing
+
 
 
 
