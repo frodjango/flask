@@ -33,7 +33,10 @@ def close_db(e=None):
 
 def init_db():
     """Clear existing data and create new tables."""
+    current_app.logger.info("Will access the database")
+
     db = get_db()
+    current_app.logger.info("Will now open the schema and execute it")
 
     with current_app.open_resource("schema.sql") as f:
         """ This is a nonstandard convenience method for executing multiple
@@ -56,8 +59,9 @@ then they are wrapped with this function by default unless it’s disabled."""
 def init_db_command():
     """Clear existing data and create new tables."""
     current_app.logger.info("FROM: db.py/init_db_command")
+
     init_db()
-    click.echo("Initialized the database.")
+    click.echo("Has Initialized the database.")
 
 
 def init_app(app):
@@ -65,5 +69,3 @@ def init_app(app):
     the application factory.
     """
     app.logger.info("FROM: db.py/init_app")
-    app.teardown_appcontext(close_db)
-    app.cli.add_command(init_db_command)

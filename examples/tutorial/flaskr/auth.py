@@ -8,6 +8,7 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
+from flask import current_app
 from werkzeug.security import check_password_hash
 from werkzeug.security import generate_password_hash
 
@@ -33,6 +34,9 @@ def login_required(view):
 def load_logged_in_user():
     """If a user id is stored in the session, load the user object from
     the database into ``g.user``."""
+
+    current_app.logger.info("Calling load_logged_in_user")
+
     user_id = session.get("user_id")
 
     if user_id is None:
